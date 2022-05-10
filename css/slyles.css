@@ -136,8 +136,10 @@
   }
 
   .mail-icon{
+    display: flex;
     margin-right: 10px;
     fill: currentColor;
+    align-items: center;
   }
 
   .mail-icon:hover,
@@ -321,6 +323,10 @@
     padding-left: 32px;
     list-style-type: none;
   }
+  
+  .social-network>.social:not(:last-child){
+    margin-right: 10px;}
+  
 
  .social-link{
    display: flex;
