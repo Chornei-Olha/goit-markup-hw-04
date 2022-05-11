@@ -125,6 +125,7 @@
 
   .auth-nav .link {
     display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     border: none;
@@ -136,7 +137,6 @@
   }
 
   .mail-icon{
-    display: flex;
     margin-right: 10px;
     fill: currentColor;
     align-items: center;
